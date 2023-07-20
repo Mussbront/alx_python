@@ -6,4 +6,4 @@ for n in range(9):
         elif n * 10 + j == 90:
             print("{:02}".format(n * 10 + j), end="\n")
         else:
-            print("{:02}".format(n * 10 + j), end="")
+            print("{:02}".format(n * 10 + j), end="\n")
