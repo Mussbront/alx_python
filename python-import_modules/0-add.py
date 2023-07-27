@@ -5,5 +5,5 @@ b = 2
 result = add(a, b)
 print ("{} + {} = {}".format(a, b, result), end="\n")
 
-if __name__ == "__0-add__":
-    0-add()
+if __name__ == "__main__":
+    add(1, 2)
