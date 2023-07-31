@@ -1,4 +1,8 @@
 #!/usr/bin/python3
 
 from variable_load_2 import a
-print ("{}".format(a), end="\n")
+def main():
+    print ("{}".format(a), end="\n")
+
+if __name__ == "__main__":
+    main()
