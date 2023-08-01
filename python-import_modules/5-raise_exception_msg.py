@@ -2,6 +2,6 @@
 
 def raise_exception_msg(message=""):
     try:
-        name = android
+        name = C is fun
     except NameError as e:
         raise e
