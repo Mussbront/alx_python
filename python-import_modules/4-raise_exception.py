@@ -2,7 +2,7 @@
 
 def raise_exception():
     try:
-        month = January
-        latest = month + 2
+        current_month = 'January'
+        next_payment = current_month + 3
     except TypeError as e:
         raise e
