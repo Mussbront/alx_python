@@ -6,6 +6,7 @@ def safe_print_division(a, b):
         result = a / b
     except ZeroDivisionError:
         print("Inside result: {}".format(result), end="\n")
+        return None
     finally:
         print("Inside result: {}".format(result), end="\n")
         print("{:d} / {:d} = {}".format(a, b, result), end="\n")
