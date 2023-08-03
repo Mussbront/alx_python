@@ -2,7 +2,7 @@
 
 def raise_exception_msg(message=""):
     try:
-        message = ""
+        message = "ne"
     except NameError as ne:
         raise ne
     print(ne)
