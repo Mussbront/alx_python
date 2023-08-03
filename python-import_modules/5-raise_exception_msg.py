@@ -6,3 +6,4 @@ try:
     raise_exception_msg(message="")
 except NameError as e:
     print(e)
+    
